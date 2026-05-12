@@ -230,9 +230,9 @@
       <div class="text">
         <ul style="padding-bottom: 0;">
           <li>
-            Vous marquez plus de points que votre adversaire.
+            Vous marquez plus de points que votre adversaire. Chaque fruit dans votre shack rapporte <const>1</const> point
             <!-- BEGIN level3 level4 -->
-            Chaque fruit dans votre shack rapporte <const>1</const> point ; le <const>WOOD</const> rapporte <const>4</const> points. Le <const>IRON</const> n'a aucune valeur de score.
+            ; le <const>WOOD</const> rapporte <const>4</const> points. Le <const>IRON</const> n'a aucune valeur de score.
             <!-- END -->
           </li>
         </ul>
@@ -308,7 +308,7 @@
         <br>
         <span class="statement-lineno">Les <var>height</var> lignes suivantes</span> : chaque ligne comporte <var>width</var> caractères :
 <!-- BEGIN level1 level2 -->
-Dans cette ligue, chaque caractère est <const>.</const> pour <const>GRASS</const>.
+Dans cette ligue, chaque caractère est <const>.</const> pour <const>GRASS</const>, <const>0</const> pour votre <const>SHACK</const> (cabane), <const>1</const> pour le <const>SHACK</const> de votre adversaire.
 <!-- END -->
 <!-- BEGIN level3 level4 -->
   <!-- BEGIN level3 -->
