@@ -52,6 +52,7 @@
         <br><br>
         <strong>Moving units</strong><br>
         Each troll has a <var>movementSpeed</var> determining how many cells it can <action>MOVE</action> horizontally or vertically per turn. Each cell can hold at most <const>1</const> troll per team. Only <const>GRASS</const> cells are walkable.
+        The shack is also the spawn point, but trolls can't walk back on that cell after leaving it.
         If the target is out of range or not walkable, the troll moves to the nearest reachable cell towards it.
 
         <br><br>
@@ -166,6 +167,7 @@
       </ol>
       Actions of the same type occur simultaneously. If both teams harvest or chop the same tree at once, resources are shared equally.<br>
       Then both get one item at a time until they can't carry any more or the resource is exhausted. The last item can get duplicated. <br>
+      Each troll can only perform one action per turn. <br>
     </div>
   </div>
 
