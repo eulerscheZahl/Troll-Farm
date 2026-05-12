@@ -29,7 +29,9 @@ public class Referee extends AbstractReferee {
 
     @Override
     public void init() {
-        gameManager.setTurnMaxTime(Constants.TIME_PER_TURN);
+        //gameManager.setTurnMaxTime(Constants.TIME_PER_TURN);
+        gameManager.setTurnMaxTime(1000);
+        gameManager.setFirstTurnMaxTime(10000);
         gameManager.setMaxTurns(gameManager.getLeagueLevel() > 2 ? Constants.GAME_TURNS : Constants.GAME_TURNS_LOW_LEAGUE);
         board = Board.createMap(gameManager.getActivePlayers(), gameManager.getRandom(), gameManager.getLeagueLevel(), graphicEntityModule, tooltipModule, toggleModule, compressionModule);
         copyInputModule.setBoard(board);
