@@ -42,6 +42,21 @@
   </div>
   <!-- END -->
 
+  <!-- BEGIN level3 -->
+  <div style="color: #7c76c5;
+      background-color: rgba(124, 118, 197, .1);
+      padding: 20px;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-bottom: 10px;
+      text-align: left;">
+      <p style="text-align: center; font-weight: 700; margin-bottom: 6px;">
+        Balancing update: Maximum distance between shacks got increased. <br>
+        For details see <a href="https://github.com/eulerscheZahl/Troll-Farm/commits/master/">github</a>, a <a href="https://github.com/eulerscheZahl/Troll-Farm/releases">new release</a> for local testing is available there as well.
+      </p>
+  </div>
+  <!-- END -->
+
   <!-- GOAL -->
   <div class="statement-section statement-goal">
     <h1>
@@ -198,15 +213,15 @@
         The cost for each attribute is equal to the number of existing trolls in the own team plus the attribute squared. <br>
         Example: you already have <b>2</b> trolls and want to <action>TRAIN</action> the following, giving you these costs: <br>
         <ul>
-            <li> <b>2</b> <var>movementSpeed</var>: <b>2 + 2*2 = 6</b> <const>PLUM</const>s </li>
-            <li> <b>3</b> <var>carryCapacity</var>: <b>2 + 3*3 = 11</b> <const>LEMON</const>s </li>
-            <li> <b>1</b> <var>harvestPower</var>: <b>2 + 1*1 = 3</b> <const>APPLE</const>s </li>
+            <li> <b>2</b> <var>movementSpeed</var>: <b>2 + 2×2 = 6</b> <const>PLUM</const>s </li>
+            <li> <b>3</b> <var>carryCapacity</var>: <b>2 + 3×3 = 11</b> <const>LEMON</const>s </li>
+            <li> <b>1</b> <var>harvestPower</var>: <b>2 + 1×1 = 3</b> <const>APPLE</const>s </li>
           <!-- BEGIN level3 level4 -->
           <li>
           <!-- BEGIN level3 -->
           <span style="color: #7cc576; background-color: rgba(124, 197, 118,.1); padding: 2px;">
           <!-- END -->
-          <b>0</b> <var>chopPower</var>: <b>2 + 0*0 = 2</b> <const>IRON</const>s
+          <b>0</b> <var>chopPower</var>: <b>2 + 0×0 = 2</b> <const>IRON</const>s
           <!-- BEGIN level3 -->
           </span>
           <!-- END -->

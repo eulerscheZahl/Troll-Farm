@@ -42,6 +42,21 @@
   </div>
   <!-- END -->
 
+  <!-- BEGIN level3 -->
+  <div style="color: #7c76c5;
+      background-color: rgba(124, 118, 197, .1);
+      padding: 20px;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-bottom: 10px;
+      text-align: left;">
+      <p style="text-align: center; font-weight: 700; margin-bottom: 6px;">
+        Mise à jour d'équilibrage : la distance maximale entre les cabanes a été augmentée. <br>
+        Pour plus de détails, consultez <a href="https://github.com/eulerscheZahl/Troll-Farm/commits/master/">GitHub</a> ; une <a href="https://github.com/eulerscheZahl/Troll-Farm/releases">nouvelle version</a> destinée aux tests locaux y est également disponible.
+      </p>
+  </div>
+  <!-- END -->
+
   <!-- GOAL -->
   <div class="statement-section statement-goal">
     <h1>
